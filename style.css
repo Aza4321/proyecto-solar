@@ -1,0 +1,28 @@
+.html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  background-image: url("");
+  background-size: cover;      /* que cubra toda la pantalla */
+  background-position: center; /* centrada */
+  background-attachment: fixed; /* efecto parallax suave */
+}
+
+body {
+  background-color: #e8f5e9; /* VERDE claro */
+}
+
+
+.seccion-verde {
+  background-color: #e8f5e9; /* verde claro */
+}
+
+
+#beneficios img {
+  width: 100%;
+  height: 220px;        /* mismo tamaño para todas */
+  object-fit: contain; /* no se deforman */
+}

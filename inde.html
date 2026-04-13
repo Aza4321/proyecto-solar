@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!--aqui agregamos el <header> Su función principal es agrupar el contenido introductorio(principal) de navegación de una páginas-->
+  <header>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary " >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#inicio">INICIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#beneficios">BENEFICIOS</a>
+
+
+
+    
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#COMO FUNCIONA">COMO FUNCIONA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#prototipo">PROTOTIPO</a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+</header>
+
+
+<!-- Aqui colocamos el main <main> que le dice al navegador dónde está el contenido importante -->
+<main style="margin-top: 56px;">
+
+<section id="INICIO" class="py-5 seccion-verde">
+
+  <!--aqui colocamos atrticle  dentro de las secciones ya que esta etiqueta indica que esos bloques (como las tarjetas de beneficios) tienen sentido por sí solos.-->
+ <article>
+
+    <div class="row mb-4">
+      <div class="col text-center mb-5">
+        <h2>¿Qué es un seguidor solar?</h2>
+        <p class="text-muted">
+          Tecnología que optimiza la captación de energía solar mediante movimiento automático.
+        </p>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-3 mb-4">
+        <div class="p-4 border rounded h-100">
+          <h1>☀️</h1>
+          <h5>Captación solar</h5>
+          <p>
+            Aprovecha mejor la radiación solar ajustando su posición durante el día.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="p-4 border rounded h-100">
+          <h1>🔄</h1>
+          <h5>Movimiento automático</h5>
+          <p>
+            Sigue la trayectoria del sol de forma continua y precisa.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="p-4 border rounded h-100">
+          <h1>⚙️</h1>
+          <h5>Sistema inteligente</h5>
+          <p>
+            Utiliza sensores y controladores para calcular el mejor ángulo.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="p-4 border rounded h-100">
+          <h1>🌱</h1>
+          <h5>Energía limpia</h5>
+          <p>
+            Reduce el impacto ambiental usando una fuente renovable.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </article>
+</section>
+
+
+
+
+
+
+ <section id="beneficios" class="py-5 bg-white">
+  <div class="container mb-5 ">
+
+    <h2 class="text-center mb-5">Beneficios del Seguidor Solar</h2>
+
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <h5>☀️ Mayor eficiencia</h5>
+        <p>
+          El seguidor solar permite captar más energía al seguir la trayectoria
+          del sol durante el día.
+        </p>
+
+        <img src="img/image eficiencia.png" class="img-fluid rounded shadow" alt="Eficiencia solar">
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5>💰 Ahorro económico</h5>
+        <p>
+          Optimiza la producción de energía reduciendo
+          costos a largo plazo.
+        </p>
+        <!--imagen por debajo de texto-->
+         <img src="img/image ahorro.png" class="img-fluid rounded shadow" alt="Ahorro energético">
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5>🌱 Energía limpia</h5>
+        <p>
+          Reduce el impacto ambiental al utilizar una
+          fuente de energía renovable.
+        </p>
+         <img src="img/image  energia limpia.png" class="img-fluid rounded shadow" alt="Energía limpia">
+      </div>
+      </div>
+
+
+
+    </div>
+
+    
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section id="COMO FUNCIONA" class="container py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">¿Cómo funciona la app?</h2>
+
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <h5>📱 Registro de datos</h5>
+        <p>
+          El usuario ingresa la ubicación y las condiciones iniciales del seguidor solar
+          mediante una interfaz sencilla y fácil de usar.
+        </p>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5>⚙️ Cálculo automático</h5>
+        <p>
+          La aplicación analiza la posición del sol y calcula el ángulo óptimo para
+          orientar el panel solar durante el día.
+        </p>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5>☀️ Movimiento del seguidor</h5>
+        <p>
+          Con base en los datos calculados, el sistema envía instrucciones al prototipo
+          para que siga la trayectoria del sol y maximice la captación de energía.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--seccion prototipo-->
+<section id="prototipo" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Prototipo del Seguidor Solar</h2>
+    <p class="text-center mb-5">
+      Imágenes reales del prototipo del seguidor solar en funcionamiento.
+    </p>
+
+    <div id="carouselPrototipo" class="carousel slide" data-bs-ride="carousel">
+      
+      <!-- Indicadores -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselPrototipo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselPrototipo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselPrototipo" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- Imágenes -->
+      <div class="carousel-inner rounded shadow">
+
+        <div class="carousel-item active">
+          <img src="img/image copy 2.png" class="d-block w-100" alt="Prototipo vista frontal">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/image copy.png" class="d-block w-100" alt="Prototipo vista lateral">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/image.png" class="d-block w-100" alt="Prototipo en funcionamiento">
+        </div>
+
+      </div>
+
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrototipo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselPrototipo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+</main> <!--aqui cierra el main-->
+
+<!-- aqui agregamos el foder-->
+<footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">© 2025 Proyecto Seguidor Solar - Equipo de Desarrollo Frontend</p>
+            <small>Desarrollado con Bootstrap 5 y JavaScript</small>
+        </div>
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Cerrar menú al hacer clic en móvil
+        document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const menu = document.querySelector('.navbar-collapse');
+                if (menu.classList.contains('show')) {
+                    bootstrap.Collapse.getInstance(menu).hide();
+                }
+            });
+        });
+
+        
+
+
+
+
+
+
+    </script>
+
+
+  
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
