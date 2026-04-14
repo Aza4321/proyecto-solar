@@ -59,7 +59,7 @@
     <hr>
 
     <div class="text-center">
-      <a href="login.html">Volver al login</a>
+      <a href="index.html">Volver al login</a>
     </div>
 
   </div>
@@ -83,7 +83,7 @@ async function reset() {
   const data = await res.json();
 
   if (data.mensaje === "Contraseña actualizada") {
-    window.location.href = "login.html";
+    window.location.href = "index.html";
   } else {
     document.getElementById("mensaje").innerText = data.mensaje;
   }
